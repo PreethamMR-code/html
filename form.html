@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form action = "" method = "post">
+
+    <label for = "uName">User Name : </label>
+    <input type = "text" id = "uName" name = "UserName"><br>
+
+    <label for = "email">Email : </label>
+    <input type = "email" id = "email" name = "Email"><br>
+
+    <label>Courses :</label>
+    <input type = "checkbox" id = "java" name="cources" value = "java">
+    <label for = "java">Java</label>
+    <input type = "checkbox" id = "python" name="cources" value = "python">
+    <label for = "python">Python</label>
+    <input type = "checkbox" id = "html" name="cources" value = "html">
+    <label for = "html">HTML</label><br>
+
+    <label for = "streams">Select Streams</label>
+    <select name = "Strems" id ="streams">
+        <option value = "">select</option>
+        <option value = "web dev">Web Dev</option>
+        <option value = "data analyst">Data Analyst</option>
+        <option value = "machine learning">Machine Learning</option>
+        <option value = "cyber security">Cyber Security</option>
+    </select><br>
+
+    <label>Gender :</label>
+    <input type = "radio" id = "boy" name = "gender" value="male">
+    <label for = "boy">Boy</label>
+    <input type = "radio" id = "girl" name = "gender" value = "female">
+    <label for = "girl">Girl</label>
+    <input type = "radio" id = "other" name = "gender" value = "other">
+    <label for = "other">Other</label><br>
+
+    <label for = "dob">Enter DOB</label>
+    <input type = "date" id="dob" name="date of birth"><br>
+
+    <label for = "resume">Resume :</label>
+    <input type = "file" id="resume" name="user resume"><br>
+
+    <label for="favcolor">Favorite Color:</label>
+    <input type="color" id="favcolor" name="fav color" value=""><br>
+
+    <label>Select Interests:</label><br>
+    <input type="checkbox" id="interest1" name="interests" value="reading">
+    <label for="interest1">Reading</label><br>
+    <input type="checkbox" id="interest2" name="interests" value="sports">
+    <label for="interest2">Sports</label><br>
+    <input type="checkbox" id="interest3" name="interests" value="travel">
+    <label for="interest3">Travel</label><br><br>
+
+    <label for="countrySelect">Select Country:</label><br>
+    <select id="countrySelect" name="selected_country">
+        <option value="">--Please Select--</option>
+        <option value="india">India</option>
+        <option value="usa">United states</option>
+        <option value="uk" >United Kingdom</option>
+        <option value="aus">Australia</option>
+    </select><br><br>
+
+
+    <label for="meetingtime">Meeting Time:</label>
+    <input type="datetime-local" id="meetingtime" name="meeting time"><br>
+
+    <label for="month">Month:</label>
+    <input type="month" id="month" name="selected month"><br>
+
+    <label for="week">Week:</label>
+    <input type="week" id="week" name="selected week"><br>
+
+    <label for="appt_time">Appointment Time:</label>
+    <input type="time" id="appt_time" name="appointment_time"><br>
+
+    <label for="search_query">Search :</label>
+    <input type="search" id="search_query" name="search_term" placeholder="Enter search term"><br>
+
+    <label for="homepage">Homepage URL:</label>
+    <input type="url" id="homepage" name="user_homepage" placeholder="https://example.com"><br>
+
+    <label for="browserInput">Choose Browser:</label><br>
+    <input list="browsers" id="browserInput" name="chosen_browser">
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist><br><br>
+
+    <label for="volume">Volume (0-100):</label>
+    <input type="range" id="volume" name="volume level" min="0" max="100" value="0"><br>
+
+    <label for="numberInput">Number (1-100):</label><br>
+    <input type="number" id="numberInput" name="quantity" min="1" max="100" value="0"><br><br>
+
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone_number" placeholder="" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"><br>
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="user_message" rows="5" cols="40" placeholder="Type your message here..."></textarea><br>
+
+    <label for="address">Permanent Address</label>
+    <textarea name = "address" id = "address" rows = "5" cols = "40" placeholder = "your permanent address.."></textarea><br>
+
+
+    <input type = "submit" value="Submit Form">
+    <input type = "reset" value="Clear Form">
+</form>
+</body>
+</html>

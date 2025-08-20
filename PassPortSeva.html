@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PassPortSeva</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+<form action = "" method = "post">
+
+    <h1 id  = "Heading"> registration</h1>
+    <h1 class="classheader">Heading</h1>
+
+
+
+    <label>Register to apply at:</label>
+     <input type = "radio" id = "CD" name = "registration" value="CPV Delhi">
+    <label for  = "CD"> CPV Delhi</label><br>
+    <input type = "radio" id = "pOffice" name = "registration" value = "Passport Office">
+    <label for =  "pOffice">Passport Office</label><br><br>
+
+
+    <label>Passport Office:<br>(as per present residential address)</label>
+    <select name = "Select" id = select>
+        <option value = "">---Select---</option>
+        <option value = "Bengaluru">Bengaluru</option>
+        <option value = "Mumbai">Mumbai</option>
+        <option value = "Chennai">Chennai</option>
+        <option value = "Hyderabad">Hyderabad</option>
+        <option value = "Delhi">Delhi</option>
+    </select><br><br>
+
+    <label for = "Fname">Given Name :</label>
+    <input type = "text" id = "Fname" name = "GivenName"><br><br>
+
+    <label for = "lname">Sur Name :</label>
+    <input type = "text" id = "lname" name = "SurName"><br><br>
+
+    <label for = "DOB">Date of Birth (DD/MM/YYYY)</label>
+    <input type="datetime-local" id="DOB" name="Date of Birth"><br><br>
+
+
+    <label for = "gmail">E-mail ID</label>
+    <input type = "text" id = "gmail" name = "Email ID"><br><br>
+
+    <label>Do You want your login ID<br>to be same as E-mail Id </label>
+    <input type = "radio" id = "loginYes" name = "Do You want your login ID" value="Yes">
+    <label for ="loginYes">Yes </label>
+    <input type = "radio" id = "loginNo" name = "Do You want your login ID" value="no">
+    <label for ="loginNO">No </label><br><br>
+
+    <label for ="ID">LOgin  Id</label>
+    <input type = "text" id ="ID" name ="LOgin  Id"  ><br><br>
+
+    <label for ="pWord">Password</label>
+    <input type = "text" id ="pWord" name ="Password"  ><br><br>
+
+    <label for ="cp">Confirm Password</label>
+    <input type = "text" id ="cp" name ="Confirm Password"  ><br><br>
+
+    <label for ="hq">Hint Question</label>
+    <select name = "Hint Question" id = "hq">
+        <option value = "">---Select---</option>
+        <option value = "Birth city">Birth city</option>
+        <option value = "favorite food">favorite food</option>
+        <option value = "favorite color">favorite color</option>
+        <option value = "favorite criketer">favorite cricketer</option>
+
+    </select><br><br>
+
+    <label for ="ha">Hint Answer</label>
+    <input type = "text" id ="ha" name ="Hint Answer"  ><br><br>
+
+    <input type = "button" value="Register">
+    <input type = "button" value="Clear">
+
+
+    <p>Fill this form to get the passport</p>
+</form>
+</body>
+</html>
