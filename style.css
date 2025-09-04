@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(50, 50, 80);
+    color:green;
+}
+
+form{
+    width:30%;
+    margin:0 auto;
+}
+
+h1{
+    color:yellow;
+}
+
+.classheader{
+    color:blue;
+}
+
+p{
+    font-family:verdana;
+    font-size:20px;
+}
