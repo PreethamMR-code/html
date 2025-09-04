@@ -1,0 +1,62 @@
+.container{
+    background-color:black;
+    color:white;
+    height:300px;
+    width:350px;
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.content span{
+    border:1px solid white;
+    padding:10px;
+    flex-direction:column;
+}
+
+.container1 .content1{
+    background-color:black;
+    color:white;
+    height:300px;
+    width:350px;
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+
+}
+.content1 span{
+    border:1px solid white;
+    padding:10px;
+    width:70px;
+    margin:2px;
+}
+
+.link a:link{
+    background-color:aqua;
+    color:blue;
+}
+a.visited{
+    color:white;
+}
+
+a,p:hover{
+    color:white;
+    background-color:pink;
+}
+p{
+background-color:yellow;
+display:inline;
+color:red;
+border:2px solid green;
+}
+
+p:active{
+color:green;
+
+}
+
